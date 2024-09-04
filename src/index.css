@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-neutral-950 text-neutral-200;
+}
+
+.topbar {
+  @apply fixed top-0 left-0 right-0 bg-blue-800 border-b border-neutral-700
+}
+
+.phone-num {
+  @apply fixed bottom-0 left-0 right-0 bg-yellow-800 border-b border-neutral-700
+}
+
+.boxes {
+  @apply space-y-5 text-center border-2 rounded-lg bg-gradient-to-r from-cyan-500 to-blue-500 row-span-2
+}
+
+.starter-page {
+  @apply bg-cover bg-center text-neutral-950;
+  background-image: url('./images/test.jpg');
+}
